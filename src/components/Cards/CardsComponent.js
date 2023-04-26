@@ -33,7 +33,7 @@ const CardsComponent = () => {
   return(
     cardsInfo.cards.map( (e) => {
       return (
-        <Card key={e.id} style={{ width: '18rem' }}>
+        <Card key={e.id} style={{ width: '18rem' }} className="mt-5">
           <Card.Img variant="top" src={e.img} style={{minHeight: '191px'}} />
           <Card.Body>
             <Card.Title>{e.title}</Card.Title>
