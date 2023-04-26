@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    To-Do List
+    Site Digimon
 </h1>
 
 <div align="center">
@@ -32,18 +32,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### ✨ Sobre a construção do projeto:
 
-- A página inicial possui um card do Angular Material;
-- No card é possível adicionar uma tarefa;
-- A tarefa adicionada irá aparecer numa lista do card;
-- É possível remover uma tarefa da lista;
+- A página inicial possui componentes do React Bootstrap;
+- O projeto consome uma web API;
+- Foi usado o módulo "uuid" para gerar identificadores únicos;
+- Foi utilizado o hook useState
+- Foi feito um filtro para listar apenas 8 Digimons
 
 ---
 
 ## 🙅 Instalações e usos
 
-A versão React do projeto é a `^18.2.0`.
+A versão React do projeto é a `18.2.0`.
 
-A versão do React Bootstrap é a `^2.7.4`.
+A versão do React Bootstrap é a `2.7.4`.
 
 A versão do Node é `16.17.0`.
 
